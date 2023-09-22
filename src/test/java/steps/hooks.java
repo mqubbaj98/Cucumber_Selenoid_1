@@ -18,6 +18,7 @@ public class hooks extends baseUtil {
         //Passing a WebDriver instance
         System.setProperty("webdriver.chrome.driver", "/home/mqubbaj/Desktop/chromedriver");
         driver = new ChromeDriver();
+        //testing Git
     }
 
     @After
