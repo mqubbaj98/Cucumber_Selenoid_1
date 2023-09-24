@@ -47,7 +47,7 @@ public class hooks extends baseUtil {
             put("enableVideo", true);
         }});
         driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub/"), chromeOptions);
-        /*driver.get(HOME_PAGE);*/
+
     }
 
     @After
